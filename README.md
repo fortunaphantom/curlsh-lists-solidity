@@ -1,4 +1,4 @@
-# curlsh-binarytree-solidity
+# curlsh-lists-solidity
 
 ## How to install
 - yarn install
@@ -12,14 +12,9 @@ This runs the hardhat test command
 
 ## About
 - StandardTest.sol: Standard test script functions are defined
-- StandardBinaryTree.sol: STandard binary tree implementation
-- MyBinaryTree.sol: There are two public functions and two internal helper functions for the problem 1 and problem 2
-- BinaryTree.t.sol: Binary Tree testing script
+- MyLinkedList.sol: Linked List implementation
+- LinkedList.t.sol: List testing script
 
-## Problem 1
-Description: Create a function that swaps left & right children for each node within a binary tree, given the root node
-Solution: swapChildren() function
-
-## Problem 2
-Description: Create a function that returns bool, checks if two binary trees are identical, given the root of each
-Solution: compareNodes() function
+## Problem
+Description: Given head of a linked list and key, delete the node that contains the given key
+Solution: MyLinkedList.remove() function
